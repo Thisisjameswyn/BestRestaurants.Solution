@@ -3,6 +3,11 @@
 <h2>Restaurant Details</h2>
 <hr />
 <h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name) </h3>
+@* <p>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description) </p>
+<p>@Html.DisplayNameFor(model => model.Price): @Html.DisplayFor(model => model.Price) </p>
+<p>@Html.DisplayNameFor(model => model.Score): @Html.DisplayFor(model => model.Score) </p> *@
 <p>@Html.ActionLink("Edit Item", "Edit", new { id = Model.RestaurantId })</p>
 <p>@Html.ActionLink("Delete Item", "Delete", new { id = Model.RestaurantId })</p>
 <p>@Html.ActionLink("Back to list", "Index")</p>
+
+@* Description, Price, Personal Score *@
